@@ -1,0 +1,103 @@
+.assembly{
+  width: 230px;
+  height: auto;
+}
+header{
+  width: 100%;
+  background-color: #233C98;
+}
+header nav{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+h1{
+  font-size: 6em;
+  margin-right: 200px;
+  font-family: "JetBrains Mono", monospace;
+  color: white;
+}
+/* main */
+
+main{
+  background-color: #242424;
+  height: 100vh;
+  color: white;
+  padding: 100px 200px;
+  
+}
+h2{
+  font-size: 3em;
+  margin-bottom: 20px;
+}
+li{
+  font-size: 1.75em;
+  max-width: 2000px;
+  text-align: justify;
+}
+.comoFunciona{
+  margin-top: 150px;
+}
+
+
+/* footer */
+footer{
+  position: fixed;
+  bottom: 0;
+  background-color: #233C98;
+  width: 100%;
+  color: white;
+  padding: 20px;
+  font-size: 1em;
+}
+@media screen and (max-width: 768px) {
+  .assembly{
+    width: 100px;
+    height: auto;
+  }
+  h1{
+    font-size: 3em;
+    margin-right: 20px;
+  }
+  footer{
+    font-size: 1em;
+  }
+  h2{
+    font-size: 2.5em;
+    margin-bottom: 20px;
+  }main{
+    background-color: #242424;
+    height: 190vh;
+    color: white;
+    padding: 10px 10px;
+    
+  }
+  li{
+    font-size: 1.4em;
+    max-width: auto;
+    text-align: justify;
+  }
+}
+@media screen and (max-width: 1560px) and (min-width: 770px){
+  .assembly{
+    width: 200px;
+    height: auto;
+  }
+  h1{
+    font-size: 5.2em;
+    margin-right: 100px;
+  }
+  h2{
+    font-size: 3em;
+    margin-bottom: 20px;
+  }
+  li{
+    font-size: 1.5em;
+  }
+  main{
+    height: 120vh;
+  }
+  .comoFunciona{
+    margin-top: 100px;
+  }
+}
